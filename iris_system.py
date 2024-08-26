@@ -12,7 +12,7 @@ class ML_logistic_Regression():
         pass
 
     def load_data(self):
-        path = "C:/Users/ASUS/Downloads/PIPELINE_MODELO_LOGISTICO/QUIZ/"
+        path = "C:/Users/mbr19/OneDrive/Escritorio/Python/Trabajos/Segunda practica 22 de agosto/Python-pipelines/"
         dataset = pd.read_csv(path + "iris_dataset.csv", sep=";", decimal=",")
         prueba = pd.read_csv(path + "iris_prueba.csv", sep=";", decimal=",")
     
